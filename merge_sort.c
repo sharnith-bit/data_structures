@@ -1,11 +1,9 @@
 #include <stdio.h>
 
-// Function to merge two subarrays
-void merge(int arr[], int left, int mid, int right) {
-    int n1 = mid - left + 1;  // Length of the first subarray
-    int n2 = right - mid;     // Length of the second subarray
 
-    // Create temporary arrays
+void merge(int arr[], int left, int mid, int right) {
+    int n1 = mid - left + 1;   
+    int n2 = right - mid;     
     int L[n1], R[n2];
 
     // Copy data to temporary arrays L[] and R[]
